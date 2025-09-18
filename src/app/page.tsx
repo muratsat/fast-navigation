@@ -6,6 +6,7 @@ export default function HomePage() {
       <Link href="/dashboard" className="text-2xl font-bold underline">
         Dashboard (Prefetch)
       </Link>
+      <div className="h-screen">Scroll down</div>
 
       <Link
         href="/dashboard-no-prefetch"
