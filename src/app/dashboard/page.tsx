@@ -15,7 +15,7 @@ export default async function Dashboard() {
   );
 }
 
-export async function Data() {
+async function Data() {
   await new Promise((resolve) => setTimeout(resolve, 1000));
 
   return <div>Data</div>;
